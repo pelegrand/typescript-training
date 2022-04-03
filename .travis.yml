@@ -4,6 +4,6 @@ node_js:
 sudo: required
 script:
   - ./exclude.sh
-  - yarn test
+  - npm test
 addons:
 chrome: stable 
